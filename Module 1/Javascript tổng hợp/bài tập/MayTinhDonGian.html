@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản</title>
+</head>
+<body>
+<script>
+    function tinhtoan(value) {
+        let str = document.getElementById("txt").innerText;
+        let kq = "";
+        if (value == "=") {
+            console.log(str);
+            kq = eval(str);
+            document.getElementById("txt").innerText = kq;
+        } else {
+            str += value;
+            document.getElementById("txt").innerText = str;
+        }
+    }
+</script>
+</body>
+</html>
