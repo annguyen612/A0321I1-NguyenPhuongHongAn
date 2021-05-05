@@ -46,10 +46,17 @@
 </script>
 
 <script>
-    var test = parseInt(prompt('a',''));
-    var final = parseInt(prompt('b',''));
-    var mid = parseInt(prompt('c',''));
-        if()
+    var test = parseInt(prompt('nhập điểm bài kiểm tra'));
+    var final = parseInt(prompt('nhập điểm bài cuối kì'));
+    var mid = parseInt(prompt('nhập điểm bài giữa kì'));
+    var kq = (test * 0.1 + mid * 0.2 + final * 0.7);
+        if (kq >= 8){
+            alert ('xếp loại giỏi');
+        } else if (6 <= kq < 8){
+            alert ('xếp loại khá');
+        } else if (4 <= kq <= 6){
+            alert ('xếp loại trung bình');
+        } else alert ('xếp loại yếu');
 </script>
 </body>
 </html>
