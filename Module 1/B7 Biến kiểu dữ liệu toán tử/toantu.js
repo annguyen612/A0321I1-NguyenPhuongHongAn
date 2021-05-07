@@ -1,7 +1,7 @@
 let inputWidth;
 let inputHeight;
-inputWidth=prompt('nhập Width:');
-inputHeight=prompt('nhập Height:');
+inputWidth=prompt('insert Width:');
+inputHeight=prompt('insert Height:');
 let width = parseInt(inputWidth);
 let height = parseInt(inputHeight);
 let area = width * height;
